@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Opeva Su",
+    "slug": "opeva-su-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "extra": {
+      "apiUrl": "http://192.168.0.101:3000"
+    },
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0066CC"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.opeva.su"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0066CC"
+      },
+      "package": "com.opeva.su"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "scheme": "opevasu",
+    "plugins": [
+      "expo-router",
+      "expo-asset",
+      "expo-font"
+    ]
+  }
+}
